@@ -16,7 +16,7 @@ struct PaymentView: View {
                 .font(.system(size: 22, weight: .bold))
             Spacer()
             Button(action: {
-                
+                //
             }, label: {
                 Text("Pay")
                     .font(.system(size: 20, weight: .semibold))
