@@ -67,7 +67,7 @@ extension Color {
     static let darkColor = Color.init(red: 46/255, green: 45/255, blue: 45/255)
     static let lightColor = Color.init(red: 254/255, green: 254/255, blue: 254/255)
     static let yellowColor = Color.init(red: 245/255, green: 210/255, blue: 49/255)
-    static let purpleColor = Color.init(red: 128/255, green: 0/255, blue: 128/255)
+    static let purpleColor = Color.init(red: 128/255, green: 0/255, blue: 140/255)
 
 }
 

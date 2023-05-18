@@ -24,6 +24,7 @@
 		D076208C2A0399D500AF4130 /* ParkingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076208B2A0399D500AF4130 /* ParkingCardView.swift */; };
 		D07620902A039A7700AF4130 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076208F2A039A7700AF4130 /* TopNavigationView.swift */; };
 		D07620932A039AD400AF4130 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07620922A039AD400AF4130 /* SearchView.swift */; };
+		D0B0D0582A141D2700B8B1C6 /* ReceiptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B0D0572A141D2700B8B1C6 /* ReceiptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		D076208B2A0399D500AF4130 /* ParkingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingCardView.swift; sourceTree = "<group>"; };
 		D076208F2A039A7700AF4130 /* TopNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
 		D07620922A039AD400AF4130 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D0B0D0572A141D2700B8B1C6 /* ReceiptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				D07620782A0397CD00AF4130 /* HourChangeView.swift */,
 				D07620832A0398AC00AF4130 /* InfoItemView.swift */,
 				D07620862A0398E700AF4130 /* ParkingInfoView.swift */,
+				D0B0D0572A141D2700B8B1C6 /* ReceiptView.swift */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				D07620702A0392D300AF4130 /* ParkingItem.swift in Sources */,
 				D07620732A0394AD00AF4130 /* SpotAnnotationView.swift in Sources */,
 				D076208C2A0399D500AF4130 /* ParkingCardView.swift in Sources */,
+				D0B0D0582A141D2700B8B1C6 /* ReceiptView.swift in Sources */,
 				D076207D2A03980F00AF4130 /* HourSliderView.swift in Sources */,
 				D07620902A039A7700AF4130 /* TopNavigationView.swift in Sources */,
 				D07620872A0398E700AF4130 /* ParkingInfoView.swift in Sources */,

@@ -20,9 +20,9 @@ struct PaymentView: View {
             }, label: {
                 Text("Pay")
                     .font(.system(size: 20, weight: .semibold))
-                    .foregroundColor(.black)
+                    .foregroundColor(.yellowColor)
                     .frame(width: 180, height: 60)
-                    .background(Color.yellowColor)
+                    .background(Color.purpleColor)
                     .cornerRadius(20)
             })
         }
