@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05ACD392A1AC113002A999B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05ACD382A1AC113002A999B /* LaunchScreen.storyboard */; };
 		D07620522A038BC500AF4130 /* iParkAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07620512A038BC500AF4130 /* iParkAppApp.swift */; };
 		D07620542A038BC500AF4130 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07620532A038BC500AF4130 /* ContentView.swift */; };
 		D07620562A038BD900AF4130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07620552A038BD900AF4130 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D05ACD382A1AC113002A999B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D076204E2A038BC500AF4130 /* iParkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iParkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07620512A038BC500AF4130 /* iParkAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iParkAppApp.swift; sourceTree = "<group>"; };
 		D07620532A038BC500AF4130 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				D07620832A0398AC00AF4130 /* InfoItemView.swift */,
 				D07620862A0398E700AF4130 /* ParkingInfoView.swift */,
 				D0B0D0572A141D2700B8B1C6 /* ReceiptView.swift */,
+				D05ACD382A1AC113002A999B /* LaunchScreen.storyboard */,
 			);
 			path = DetailView;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05ACD392A1AC113002A999B /* LaunchScreen.storyboard in Resources */,
 				D07620592A038BD900AF4130 /* Preview Assets.xcassets in Resources */,
 				D07620562A038BD900AF4130 /* Assets.xcassets in Resources */,
 			);
@@ -376,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDeyi.iParkApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -398,7 +402,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.PeterDeyi.iParkApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -25,12 +25,12 @@ struct TopNavigationView: View {
             
             HStack {
                 Image("car")
-                
+                    
                 VStack(alignment: .leading, spacing: 2) {
                     Text("My car")
                         .font(.system(size: 14))
                         .foregroundColor(.gray)
-                    Text("A16591")
+                    Text("Honda")
                         .font(.system(size: 17))
                 }
             }
