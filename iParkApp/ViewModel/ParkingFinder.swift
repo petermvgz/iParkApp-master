@@ -21,3 +21,9 @@ class ParkingFinder: ObservableObject {
 }
 
 
+/*
+ @Published var spots = Data.spots: Declares a published property for storing an array of parking spots. The Data.spots represents the initial set of parking spots.
+ @Published var selectedPlace: ParkingItem?: Declares a published property for storing the currently selected parking spot. It is an optional ParkingItem.
+ @Published var showDetail = false: Declares a published property to control the visibility of the parking detail view.
+ @Published var region = MKCoordinateRegion(...): Declares a published property to store the initial region for the map view. It is initialized with a specific center coordinate and span using the first parking spot's location from the Data.spots array.
+ */
